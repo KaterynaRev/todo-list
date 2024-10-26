@@ -1,0 +1,30 @@
+@media (max-width: 1440px) {
+
+    body {
+        background-color: #c8ddf4;
+        display: flex;
+        text-align: center;
+    }
+
+    #main-container {
+        display: flex;
+        top: 120px;
+        position: relative;
+        margin: 0 auto;
+        align-items: center;
+        width: calc(100% - 20px);
+        left: 20vw;
+        z-index: 200;
+    }
+}
+@media (max-width:  768px) {
+    #main-container {
+        display: flex;
+        top: 100px;
+        position: relative;
+        margin: 0 auto;
+        align-items: center;
+        width: 100vw;
+        z-index: 200;
+    }
+}

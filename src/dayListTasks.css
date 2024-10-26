@@ -1,0 +1,142 @@
+@media (max-width: 1440px) {
+    .ulDaylist, .ulDaylistNull {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        height: auto;
+        text-align: left;
+        align-items: center;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        position: relative;
+        top: -30px;
+    }
+
+    .liDayList, .liDayListNull {
+        margin-bottom: 15px;
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: calc(100% - 20px);
+        height: auto;
+        padding: 8px 10px;
+        font-size: 1rem;
+    }
+
+    .elememtDayList, .elememtDayListNull {
+        padding: 4px;
+    }
+
+    .imgIkonsDay {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #imgButtonEdit,
+    #imgButtonDelete,
+    #imgButtonCheck {
+        border: none;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #7ba9dd;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        width: 50px;
+        height: 34px;
+    }
+
+    #imgButtonEdit:hover,
+    #imgButtonDelete:hover,
+    #imgButtonCheck:hover,
+    #btnCreateList:hover {
+        background-color: #e5fa2c;
+    }
+
+    .imgButtonEdit,
+    .imgButtonDelete {
+        width: 24px;
+        height: 24px;
+    }
+
+    #imgButtonCheck {
+        display: flex;
+        align-items: center;
+    }
+
+    #h1TodayTask {
+        position: relative;
+        top: -40px;
+        padding: 2px;
+        margin: 2px;
+    }
+
+    #btnSortedTask {
+        position: fixed;
+        z-index: 1000;
+        right: 20px;
+        top: 5px;
+        text-decoration: none;
+        padding: 10px;
+        margin: 0 10px;
+        font-size: 1.1rem;
+        color: black;
+        background-color: #7ba9dd;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    #btnSortedTask:hover {
+        background-color: #e5fa2c;
+    }
+}
+@media (max-width:  768px) {
+    #h1TodayTask{
+        position: relative;
+        top: -35px;
+        padding: 2px;
+        margin: 2px;
+        left: 20px;
+    }
+    .ulDaylist, .ulDaylistNull{
+        width: 50vw;
+        height: auto;
+        text-align: left;
+        align-items: center;
+        padding: 3px 4px;
+        border-radius: 4px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        position: relative;
+        top: -40px;
+        left: 14px;
+    }
+    .liDayList, .liDayListNull {
+        margin-bottom: 2px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: calc(100% - 20px);
+        height: auto;
+        padding: 2px 2px;
+        font-size: 1rem;
+    }
+    #btnSortedTask{
+       position: absolute;
+        right: 210px;
+        top: -90px;
+        padding: 2px;
+        margin: 0 3px;
+        font-size: 0.8rem;
+        width: 25vw;
+    }
+}

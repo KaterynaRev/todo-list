@@ -1,0 +1,126 @@
+@media (max-width: 1440px) {
+    #rootForm {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        height: auto;
+        align-items: center;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    }
+
+    .form-group {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .form-group input {
+        width: calc(100% - 20px);
+        padding: 8px 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1rem;
+    }
+
+    .divButtonsAdd {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .btnSubmitForm, .btnNewproject {
+        width: 50%;
+        height: auto;
+        padding: 4px;
+        font-size: 1rem;
+        color: black;
+        background-color: #7ba9dd;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    #idBtnNewproject {
+        width: 120%;
+        height: auto;
+        padding: 4px;
+        font-size: 1rem;
+        color: black;
+        background-color: #7ba9dd;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .btnSubmitForm:hover, .btnNewproject:hover, #idBtnNewproject:hover {
+        background-color: #e5fa2c;
+    }
+
+    .formCreate {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #idInput {
+        z-index: 200;
+        width: 38%;
+        height: 33px;
+        position: absolute;
+        top: 569px;
+        left: 230px;
+    }
+}
+
+@media (max-width: 768px) {
+    #rootForm {
+        width: 60vw;
+        padding: 10px;
+        position: relative;
+        align-items: center;
+        left: -30px;
+        top: -20px;
+    }
+
+    .form-group input {
+        padding: 5px;
+    }
+
+    #idInput{
+        z-index: 200;
+        width: 50%;
+        height: 24px;
+        position: absolute;
+        top: 454px;
+        left: 60px;
+    }
+
+    .divButtonsAdd{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 5px;
+        width: 48vw;
+        height: 5vh;
+    }
+    .btnSubmitForm:hover, .btnNewproject:hover, #idBtnNewproject:hover{
+        background-color:#e5fa2c;
+    }
+    .form-group label{
+        margin-bottom: 1px;
+    }
+    .form-group{
+        margin-bottom: 5px;
+    }
+}

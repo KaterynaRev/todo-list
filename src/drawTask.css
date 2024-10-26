@@ -1,0 +1,152 @@
+@media (max-width: 1440px) {
+    .mockListLiClass {
+        margin-bottom: 15px;
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: calc(100% - 20px);
+        height: auto;
+        padding: 8px 10px;
+        font-size: 1rem;
+    }
+
+    /*.divCreateList{*/
+    /*    border: none;*/
+    /*    cursor: pointer;*/
+    /*    outline: none;*/
+    /*    color: black;*/
+    /*    background-color: #7ba9dd;*/
+    /*    border-radius: 5px;*/
+    /*    transition: background-color 0.3s ease;*/
+    /*    margin: 2px;*/
+    /*    font-size: 1rem;*/
+    /*}*/
+    .imgIkons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #imgButtonEdit,
+    #imgButtonDelete,
+    #imgButtonCheck {
+        border: none;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #7ba9dd;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        width: 50px;
+        height: 34px;
+    }
+
+    #imgButtonEdit:hover,
+    #imgButtonDelete:hover,
+    #imgButtonCheck:hover,
+    #btnCreateList:hover {
+        background-color: #e5fa2c;
+    }
+
+    .imgButtonEdit,
+    .imgButtonDelete {
+        width: 24px;
+        height: 24px;
+    }
+
+    #imgButtonCheck {
+        display: flex;
+        align-items: center;
+    }
+
+    #mockList {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        height: auto;
+        text-align: left;
+        align-items: center;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .formUpdate {
+        display: flex;
+        flex-direction: column;
+        width: 20vw;
+        height: auto;
+    }
+
+
+    .dropdown {
+        position: relative;
+        border: none;
+        cursor: pointer;
+        outline: none;
+    }
+
+    #btnCreateList {
+        border: none;
+        cursor: pointer;
+        outline: none;
+        color: black;
+        background-color: #7ba9dd;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        margin: 2px;
+        font-size: 1rem;
+        position: relative;
+        display: inline-block;
+        width: 15vw;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 15vw;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        z-index: 2;
+    }
+
+    .dropdown-content button {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #e5fa2c;
+    }
+
+    /* Показати випадаюче меню при наведенні */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+}
+@media (max-width: 768px) {
+    #mockList{
+        position: absolute;
+        left: -28px;
+        width: 62vw;
+        padding: 0px;
+        top: 50vh;
+    }
+    .mockListLiClass{
+        padding-bottom: 2px;
+        margin-bottom: 0px;
+    }
+    #btnCreateList{
+        width: 25vw;
+    }
+    .dropdown-content{
+        width: 26vw;
+    }
+}

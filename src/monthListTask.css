@@ -1,0 +1,246 @@
+@media (max-width: 1440px) {
+    .monthView {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        width: 800px;
+        height: 50svh;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    .daysOfWeek {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -80px;
+        box-sizing: border-box;
+        height: 1064px;
+        width: 50px;
+        background-color: #ededf8;
+    }
+
+    .dayHeader {
+        font-weight: bold;
+        box-sizing: border-box;
+        height: 152px;
+        margin: 0px;
+        border: 1px solid black;
+    }
+
+    .weekBox {
+        width: 150px;
+        height: 150px;
+        box-sizing: border-box;
+        position: relative;
+        top: -80px;
+        background-color: #ededf8;
+    }
+
+    .dayBox {
+        border: 1px solid black;
+        height: 150px;
+        background-color: #ededf8;
+    }
+
+    #idDate {
+        position: relative;
+        top: -20px;
+    }
+
+    .taskListMonth {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0px;
+        top: -35px;
+        cursor: pointer;
+        box-sizing: border-box;
+        text-align: left;
+        width: 140px;
+        height: auto;
+    }
+
+    .taskItemMonth {
+        width: 140px;
+        height: 40px;
+        position: relative;
+        list-style-type: none;
+        left: -10px;
+    }
+
+    .taskDetailsTooltip {
+        display: block;
+        position: absolute;
+        background-color: white;
+        border: 1px solid #ccc;
+        padding: 10px;
+        z-index: 10;
+        box-shadow: 0 2px 5px rgba(0.2, 0, 0, 0.15);
+        width: 250px;
+        top: -28px;
+        left: 95px;
+        margin-top: 5px;
+    }
+
+    .imgIkonsMonth {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    #imgButtonEditMonth,
+    #imgButtonDeleteMonth,
+    #imgButtonCheckMonth {
+        border: none;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #7ba9dd;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        width: 50px;
+        height: 34px;
+        margin: 3px;
+        justify-content: space-between;
+    }
+
+    #imgButtonEditMonth:hover,
+    #imgButtonDeleteMonth:hover,
+    #imgButtonCheckMonth:hover {
+        background-color: #e5fa2c;
+    }
+
+    .imgButtonEditMonth,
+    .imgButtonDeleteMonth {
+        width: 24px;
+        height: 24px;
+    }
+
+    .formUpdateMonth {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: white;
+        border: 1px solid #ccc;
+        padding: 10px;
+        z-index: 50;
+        box-shadow: 0 2px 5px rgba(0.2, 0, 0, 0.15);
+        width: 250px;
+        height: 180px;
+        top: -28px;
+        left: 95px;
+        margin-top: 5px;
+    }
+
+    .taskTitleMonth {
+        background-color: white;
+        border: 1px solid #1f1fde;
+        width: max-content;
+        padding: 1px 2px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    #h1TasksMonth {
+        position: relative;
+        top: -60px;
+    }
+
+    .calebdarDiv {
+        position: relative;
+        top: 690px;
+        left: 10%;
+    }
+}
+
+@media (max-width: 768px) {
+    .monthView {
+        position: relative;
+        width: 75svh;
+        height: 75svh;
+        padding-bottom: 2px;
+        margin-bottom: 2px;
+    }
+
+    .daysOfWeek {
+        position: relative;
+        top: -80px;
+        height: 75svh;
+        width: 10vw;
+        left: -79px;
+    }
+
+    .weekBox {
+        width: 16.5vw;
+        height: 20px;
+        position: relative;
+        top: -80px;
+        left: -79px;
+    }
+
+    .weekBox {
+        height: 10.3svh;
+    }
+
+    .dayBox {
+        height: 10.5svh;
+    }
+
+    #idDate {
+        position: relative;
+        top: -9px;
+        left: 1.5px;
+        max-width: 12px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    #pIdNoTask {
+        display: none;
+    }
+    .taskListMonth {
+        position: relative;
+        left: -50px;
+        top: -20px;
+        width: 40px;
+        height: auto;
+        margin: 2px;
+    }
+    .taskTitleMonth {
+        position: relative;
+        left: 20px;
+        top: 10px;
+        width: 55px;
+        height: 60px;
+    }
+    .taskDetailsTooltip {
+        position: absolute;
+        padding: 2px;
+        z-index: 10;
+        width: 180px;
+        top: 69px;
+        left: -45px;
+        margin-top: 5px;
+    }
+    .imgIkonsMonth {
+        gap: 3px;
+    }
+
+    .formUpdateMonth {
+        position: absolute;
+        padding: 2px;
+        z-index: 50;
+        width: 180px;
+        top: 69px;
+        left: -45px;
+        height: 180px;
+        margin-top: 1px;
+    }
+    #h1TasksMonth{
+        position: relative;
+        top: -68px;
+        left: -210px;
+    }
+
+}

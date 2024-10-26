@@ -1,0 +1,108 @@
+@media (max-width: 1440px) {
+    #mainDiivSerch {
+        border: none;
+        cursor: pointer;
+        outline: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        position: absolute;
+        top: 5px;
+        left: 1100px;
+    }
+
+    #iSer {
+        list-style-type: none;
+    }
+
+    .dropdownSerch {
+        position: relative;
+        border: none;
+        cursor: pointer;
+        outline: none;
+
+    }
+
+    #btnSerch1 {
+        border: none;
+        cursor: pointer;
+        outline: none;
+        color: black;
+        padding: 12px;
+        margin: 0 10px;
+        font-size: 1.1rem;
+        background-color: #7ba9dd;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        position: relative;
+        display: inline-block;
+        width: 15vw;
+    }
+
+    #btnSerch {
+        border: none;
+        cursor: pointer;
+        outline: none;
+        color: black;
+        background-color: #7ba9dd;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        margin: 2px;
+        font-size: 1rem;
+        position: relative;
+        display: inline-block;
+        width: 14.5vw;
+        left: 0px;
+    }
+
+    .dropdown-contentSerch {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        max-width: 15vw;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        z-index: 2;
+        left: 10px;
+    }
+
+    .dropdown-contentSerch button {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+    }
+
+    #btnSerch:hover, #btnSerch1:hover {
+        background-color: #e5fa2c;
+    }
+
+    .dropdownSerch:hover .dropdown-contentSerch {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    #btnSerch1 {
+        padding: 2px;
+        margin: 0 3px;
+        font-size: 0.8rem;
+        width: 24vw;
+        display: inline-block;
+    }
+
+    #mainDiivSerch {
+        position: absolute;
+        left: 280px;
+        top: 9px;
+    }
+
+    #btnSerch {
+        width: calc(100% - 6px);
+    }
+    .dropdown-contentSerch{
+        max-width: 20vw;
+        position: absolute;
+        left: 10px;
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,168 @@
+@media (max-width: 1440px) {
+    .ulWeeklist, .ulWeeklistNull {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        height: auto;
+        text-align: left;
+        align-items: center;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        position: relative;
+        top: -30px;
+        left: 15px;
+    }
+
+    .liWeekList, .liWeekListNull {
+        margin-bottom: 15px;
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: calc(100% - 20px);
+        height: auto;
+        padding: 8px 10px;
+        font-size: 1rem;
+    }
+
+    .elememtWeekList, .elememtWeekListNull {
+        padding: 4px;
+    }
+
+    .imgIkonsWeek {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #imgButtonEdit,
+    #imgButtonDelete,
+    #imgButtonCheck {
+        border: none;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #7ba9dd;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        width: 34px;
+        height: 34px;
+    }
+
+    #imgButtonEdit:hover,
+    #imgButtonDelete:hover,
+    #imgButtonCheck:hover,
+    #btnCreateList:hover {
+        background-color: #e5fa2c;
+    }
+
+    .imgButtonEdit,
+    .imgButtonDelete {
+        width: 24px;
+        height: 24px;
+    }
+
+    #imgButtonCheck {
+        display: flex;
+        align-items: center;
+    }
+
+    #checkBoxCheck {
+        position: relative;
+        width: 50px;
+        height: 50px;
+    }
+
+    #h1TasksWeek {
+        position: relative;
+        top: -50px;
+        left: -15px;
+        box-sizing: border-box;
+    }
+
+    #btnSortedTaskWeek {
+        position: fixed;
+        top: 5px;
+        right: 20px;
+        padding: 10px;
+        margin: 0 10px;
+        font-size: 1.1rem;
+        color: black;
+        background-color: #7ba9dd;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        box-sizing: border-box;
+        z-index: 1000;
+    }
+
+    #btnSortedTaskWeek:hover {
+        background-color: #e5fa2c;
+    }
+
+    .daySection {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        left: -50px;
+        gap: 30px;
+        justify-content: space-around;
+        box-sizing: border-box;
+    }
+
+    .daySection h2 {
+        margin: 2px;
+        padding: 2px;
+        gap: 10px;
+        position: relative;
+        top: -20px;
+    }
+
+    #dateBoxWeek {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+}
+@media (max-width: 768px) {
+    .ulWeeklist, .ulWeeklistNull{
+        width: 61vw;
+        height: auto;
+        padding: 10px;
+        position: relative;
+        top: -60px;
+        left: -34px;
+    }
+
+    .imgIkonsWeek {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .daySection h2{
+        margin: 2px;
+        padding: 2px;
+        gap: 5px;
+        position: relative;
+        top: -55px;
+        left: -18px;
+    }
+    #h1TasksWeek{
+        position: relative;
+        top: -50px;
+        left: -54px;
+    }
+    .liWeekList, .liWeekListNull {
+        margin-bottom: 5px;
+        display: flex;
+        padding: 2px 4px;
+        font-size: 1rem;
+    }
+
+}
